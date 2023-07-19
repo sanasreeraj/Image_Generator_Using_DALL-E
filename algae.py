@@ -21,8 +21,9 @@ def download_image(url):
     else:
         print("Failed to download image")
 
+#Put your personal API Key in Line 25
+openai.api_key = "YOUR API KEY"
 
-openai.api_key = "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"
 
 folder_path = r"Images"
 # image_file = "ALGAE3.png"
